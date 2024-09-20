@@ -44,7 +44,7 @@ def getRatio(price_a, price_b):
     """ ------------- Update this function ------------- """
     if (price_b == 0):
         # if method checks for undefine value for zero
-        return
+        return None
     return price_a / price_b
 
 
